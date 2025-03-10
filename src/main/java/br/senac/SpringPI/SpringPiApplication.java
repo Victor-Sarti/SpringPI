@@ -1,4 +1,4 @@
-package br.senac.SpringPI.resources;
+package br.senac.SpringPI;
 
 
 import br.senac.SpringPI.entities.Aluno;
