@@ -1,4 +1,4 @@
-package br.senac.SpringPI;
+package br.senac.SpringPI.resources;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;

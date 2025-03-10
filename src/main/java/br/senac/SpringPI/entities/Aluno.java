@@ -1,4 +1,4 @@
-package br.senac.SpringPI;
+package br.senac.SpringPI.entities;
 
 import jakarta.persistence.*;
 
@@ -18,6 +18,16 @@ public class Aluno implements Serializable {
     String nome;
     LocalDateTime dataCadastro;
 
+    public Aluno(int ra, String nome, LocalDateTime dataCadastro) {
+        this.ra = ra;
+        this.nome = nome;
+        this.dataCadastro = dataCadastro;
+    }
+    public Aluno(String nome, LocalDateTime dataCadastro) {
+        this.nome = nome;
+        this.dataCadastro = dataCadastro;
+    }
 
-
+    public Aluno() {
+    }
 }
